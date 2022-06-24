@@ -7,5 +7,5 @@ Various everyday scripts written in various scripting languages I wanted to try 
 ### Perl
 #### 1. **file_manager.pl** 
 A script that:
-- (reflect) Represents a directory tree in Markdown.
-- (build) Given a not empty directory and a file describing a directory structure, creates the described structure with the files.
+- Represents a directory tree in Markdown. (reflect)
+- Given a not empty directory and a file describing a directory structure, creates the described structure with the files. (build)
