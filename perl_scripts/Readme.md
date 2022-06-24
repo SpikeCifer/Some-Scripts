@@ -1,12 +1,11 @@
 # Book Catalogue
 
 ## Description
+This Script provides 2 features
+reflect: Creates a catalogue.md file and writes inside it the directory tree from the current directory the script is in, up to 6 levels deep.
+build: Provided a directory containing unordered files as well as a catalogue, the script creates the directory tree described in the catalogue file. 
 
-Basic premise of the project is that it allows you to define a library stracture
-by defining it in the catalogue.md file. The script then will create the structure
-and move all files from the default directory to the directory specified in the catalogue.
-
-## Notice
-
-When loading/reading a data stracture the script ignores directory structures with depth
-more than 5.
+## Usage
+Given that the  Perl language is installed in your computer, run the script as:
+- perl file_manager.pl reflect.
+- perl file_manger.pl build (Currenty not implemented).
