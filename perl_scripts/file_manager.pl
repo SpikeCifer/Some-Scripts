@@ -73,7 +73,7 @@ sub reflect {
 
 sub main {
     unless (exists $functions_hash{$ARGV[0]}) { 
-        print "Subroutine \"$ARGV[0]\" not found, input \"book_manager.pl help\" for a list of available subroutines\n";
+        print "Subroutine \"$ARGV[0]\" not found, input \"help\" for a list of available subroutines\n";
         return $_;
     } 
 
